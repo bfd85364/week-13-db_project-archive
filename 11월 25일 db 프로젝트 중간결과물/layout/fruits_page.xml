@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fruits_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/apple"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="사과" />
+
+        <ImageButton
+            android:id="@+id/aoi_ringo"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/aoi_ringo"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="아오이 사과" />
+
+        <ImageButton
+            android:id="@+id/pear"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/pear"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="배" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[상큼한농원] [청송][사과] 피치애플 엔부 새콤달콤 사과 [5kg] 49,000원"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[참손농원] 가정용 [시나노골드] [10kg] (중과,소과39-52과) 60,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[이안농장] 가이네 과수원 맛좋은 [배] [7kg] [-13-15]과내"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/daechu"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/daechu"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:contentDescription="대추" />
+
+        <ImageButton
+            android:id="@+id/shinemusket"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/shinemusket"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="샤인머스켓" />
+
+        <ImageButton
+            android:id="@+id/grape"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/grape"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="거봉" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[수련농원] [국내산] [경산] [대추] [건대추] [2번대추] [중소과] [1kg] 17,500원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[세원팜스] [경북] [상주] [당도선별] [GAP 인증] [국내산] [샤인머스켓] [특품] [명절선물세트] 20,900원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[포도여행] [씨없는 거봉] [고당도] [프리미엄] [BK시들리스] [1.5kg] 선물용 27,000원 "
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/hodu"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/hodu"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="호두" />
+
+        <ImageButton
+            android:id="@+id/strawnerry"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/strawberry"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="딸기" />
+
+        <ImageButton
+            android:id="@+id/gotgam"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/gotgam"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="곶감(곧감 아님ㅎ)"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[안동초롱초롱호두] [경북] [안동] [피호두] 특상품, [1kg] (65개에서70개)25년도생산 36,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[자전거딸기농장]진한달콤함 [금실] [딸기] 특품 43,500원 "
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[천년빛곶감] 선물용 반건시 30구 (1팩 500g 이내*3팩) 42,000원"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

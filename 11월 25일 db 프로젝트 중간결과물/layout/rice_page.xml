@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rice_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/backmi_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/backmi_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="백미" />
+
+        <ImageButton
+            android:id="@+id/hukmi_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/hukmi_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="흑미" />
+
+        <ImageButton
+            android:id="@+id/hyunmi_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/hyunmi_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="현미쌀" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[2025년쌀] [5kg 당일도정] 우렁이농법 쌀 [백미] 쌀아지매 21,900원"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[예천또바기마을] [2025년산] 찰진주 [찰흑미] [1kg/2kg/4kg] 9,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[안동와룡농협] [2025년산] [현미] [1kg] 5,900원"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/hat_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/hat_rice"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:contentDescription="햅쌀" />
+
+        <ImageButton
+            android:id="@+id/jangsu_jungmi_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/jangsu_jungmi_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="장수정미쌀" />
+
+        <ImageButton
+            android:id="@+id/back_jinju_rice"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/back_jinju_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="백진주쌀" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[국사골정보화마을] [2025년산] [햇찹쌀] [2kg] 11,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[장수정미소] 2025년산 일품햅쌀 [장수쌀] [햅찰쌀] [20kg] 70,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[안동로컬푸드농부장터] [2025년산] 안동 [프리미엄] [백진주쌀] [10Kg] 48,000원"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/icon_seventh"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/ohsakmi_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="오색미" />
+
+        <ImageButton
+            android:id="@+id/icon_eighth"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/byte_rice"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="홍합잡곡" />
+
+        <ImageButton
+            android:id="@+id/icon_ninth"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/meju"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="메주"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="★포항 겨울 맞이★ [까망아제네팜] [오색미] [2kg] 10,500원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[예천또바기마을] [오색현미] [혼합잡곡] [2kg/4kg]"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[경북 고령]에서 직접 농사지어 만든 [국산] [알메주] [5kg]"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/vegetable"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/ginger"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/ginger"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="생강" />
+
+        <ImageButton
+            android:id="@+id/galic"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/galic"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="마늘" />
+
+        <ImageButton
+            android:id="@+id/goguma"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/goguma"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="고구마" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[영주장터농원]미네랄농법으로 직접재배한 흙생강 10kg 에어세척 (햇생강 생강청용.모둠가정용), 65,000원"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[형주네농원] 2024년산 의성마늘명인 깐마늘 소품 1kg 한지형, 김장마늘 8,900원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[소백산단산포도정보화마을] 소백산 밤고구마 10kg 34,000원"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/potato"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/potato"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="fitXY"
+            android:contentDescription="감자" />
+
+        <ImageButton
+            android:id="@+id/pepper"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/pepper"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="고추" />
+
+        <ImageButton
+            android:id="@+id/yakma"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/yakma"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="약마" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[대끼리네] 봉화 수미감자 햇 감자 1kg ~ 10kg 경북 감자 6,700원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[안동로컬푸드농부장터] 2025년산 최상품 세척 건고추 안동 건고추(600g 한근-꼭지 제거) 18,900원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="북안동농협] 산에서 나는 장어, 산약마 (상, 중)[3kg], [5kg] 33,000원  "
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp">
+
+        <ImageButton
+            android:id="@+id/onion"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/onion"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="양파" />
+
+        <ImageButton
+            android:id="@+id/spicy"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/spicy"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="고춧가루" />
+
+        <ImageButton
+            android:id="@+id/pumkin"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:src="@drawable/pumkin"
+            android:scaleType="fitXY"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="호박"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="★청년MD★ [영천고경마을] 3kg 청년농부 엄영환 단단한 흙양파 6,440원 "
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[현재농원] HACCP 국산 유기농 고춧가루 200g 고추가루 [굵기:고운(고추장용)] 21,000원"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="[그린웰농업회사법인주식회사] 영주 꿀찬미니단호박 [3kg] 18,000원"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
